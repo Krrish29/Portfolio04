@@ -1,0 +1,197 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>My Own Space</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device+width, initial-scale=1.0">
+        <link rel="stylesheet" type="text/css" href="resume.css">
+        <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.2.1/css/fontawesome.min.css">
+        <meta name='viewport' content='width=device-width, initial-scale=1'>
+        <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600;700;800;900&display=swap" rel="stylesheet">
+        <link href="https://fonts.googleapis.com/css2?family=Charmonman:wght@400;700&display=swap" rel="stylesheet">
+        <link href="https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400;500;600;700&display=swap" rel="stylesheet">
+        <link href="https://fonts.googleapis.com/css2?family=Bad+Script&display=swap" rel="stylesheet">
+        <script src="https://kit.fontawesome.com/16f5dcd0be.js" crossorigin="anonymous"></script>
+    </head>
+    <body>
+        <div class="header">
+            <div class="navbar">
+                <div class="logo">
+                    <a href="#">KG</a>
+                </div>
+                <div class="menu">
+                    <ul>
+                        <li><a href="#header">Home</a></li>
+                        <li><a href="#about">About</a></li>
+                        <li><a href="#services">Services</a></li>
+                        <li><a href="#Portfolio">Portfolio</a></li>
+                        <li><a href="#contact">Contact</a></li>
+                    </ul>
+                </div>
+            </div>
+            <div class="header-text">
+                <h7>2nd Year Student</h7>
+                <h1>Hi, I am <span> Krrish Garg </span><br>from India</h1>
+            </div>
+        </div>
+
+ <!---------------about---------------->
+
+        <div id="about">
+            <div class="container">
+                <div class="row">
+                    <div class="about-col-1">
+                        <img src="KG.jpg">
+                    </div>
+                    <div class="about-col-2">
+                        <h2 class="sub-title">About Me</h2>
+                        <p>Hey, This is Krrish Garg all the way from India. I am currently studying my 2nd year Btech in <span>SRM Institute of Science and Technology</span> in <span>Chennai</span>. I am a hardworking and motivated <span>Computer Science Engineer</span> who has aquired extensive knowledge in the field. I have zero work experience as I am still studying but out of my own passion i have worked in <span>Web Designing</span> in the front end you can see my work in my gitHub profile.</p>
+                   
+                   
+                    <div class="tab-titles">
+                        <p class="tab-links active-link" onclick="opentab('skills')">Skills</p>
+                        <p class="tab-links" onclick="opentab('experience')">Experience</p>
+                        <p class="tab-links"onclick="opentab('education')">Education</p>
+                    </div>
+                    <div class="tab-contents active-tab" id="skills">
+                        <ul>
+                            <li><span>UI/UX</span><br>Designing Web/app interfaces</li>
+                            <li><span>Web development</span><br>Designing Web app development</li>
+                            <li><span>App development</span><br>Buiding Android/ios apps</li>
+                        </ul>
+                    </div>
+                    <div class="tab-contents" id="experience">
+                        <ul>
+                            <li><span>2021 - Current</span><br>Working in simple front end web development projects.</li> 
+                            <li><span>2019 - 2021</span><br>Started to learn Web development</li>
+                            <li><span>2018 - 2019</span><br>Learnt C, C++, Python, Html, CSS</li>
+                        </ul>
+                    </div>
+                    <div class="tab-contents" id="education">
+                        <ul>
+                            <li><span>2022 - Current</span><br>Btech from SRM Institute of Science and Technology</li>
+                            <li><span>2008 - 2022</span><br>Schooling from Ryan International School</li>
+                        </ul>
+                    </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+
+<!--------------------services-------------------->
+       <div id="services">
+        <div class="container">
+            <h2 class="sub-title">My Services</h2>
+            <div class="services-list">
+                <div class="WD">
+                    <i class="fa-solid fa-code"></i>
+                    <h2>Web Development </h2>
+                    <p>Web development, also known as website development, refers to the tasks associated with creating, building, and maintaining websites and web applications that run online on a browser.</p>
+                    <a class="button" href="https://www.w3schools.com/whatis/" target="_blank">Learn more</a>
+                </div>
+                <div class="UIUX">
+                    <i class="fa-solid fa-crop-simple"></i>
+                    <h2>UI/UX Development </h2>
+                    <p>A UI/UX developer is a specialized software developer who focuses on creating user interfaces and user experiences for a variety of products, such as websites and mobile apps. </p>
+                    <a class="button" href="https://www.w3schools.com/css/css3_user_interface.asp" target="_blank">Learn more</a>
+                </div>
+                <div class="AD">
+                    <i class="fa-brands fa-apple"></i>
+                    <h2>App Development </h2>
+                    <p>Mobile application development is the process of creating software applications that run on a mobile device, and a typical mobile application utilizes a network connection to work with remote computing resources.</p>
+                    <a class="button" href="https://www.w3schools.com/appml/" target="_blank">Learn more</a>
+                </div>
+            </div>
+        </div>
+       </div> 
+<!--------------------Portfolio--------------------->
+
+    <div id="Portfolio">
+        <div class="container">
+            <h2 class="sub-title">My Work</h2>
+            <div class="work-list">
+                <div class="work">
+                    <img src="AD.jpeg">
+                    <div class="layer">
+                        <h3>Social Media App</h3>
+                        <p>The app connects you to the talented people around the world. Download it from Play Store.</p>
+                        <a href="https://www.instagram.com/" target="_blank"><i class="fas fa-external-link-alt"></i></a>
+                    </div>
+                </div>
+                <div class="work">
+                    <img src="WD1.jpg">
+                    <div class="layer">
+                        <h3>Music App</h3>
+                        <p>This app helps you hear a lot of songs to calm your body and soul and get a break from your corporate life.</p>
+                        <a href="https://www.spotify.com/" target="_blank"><i class="fas fa-external-link-alt"></i></a>
+                    </div>
+                </div>
+                <div class="work">
+                    <img src="UIUX.jpg">
+                    <div class="layer">
+                        <h3>Online Shopping App</h3>
+                        <p>This app helps you shop different brands of cloths according to your own intrest, ask for a brand and purchase your liked cloth.</p>
+                        <a href="https://www.myntra.com/" target="_blank"><i class="fas fa-external-link-alt"></i></a>
+                    </div>
+                </div>
+            </div>
+        </div>
+       
+    </div>
+
+
+    <!--------------------Contact--------------------->
+    <div id="contact">
+        <div class="container">
+            <div class="row">
+                <div class="contact-left">
+                    <h2 class="sub-title">Contact me</h2>
+                    <p><a href="#"  class="fas fa-paper-plane"></a> krrishgarg4@gmail.com</p>
+                    <p><a href="#"  class="fas fa-phone"></a>+91 8826127455</p>
+                    <div class="social-icons">
+                        <a href="https://github.com/Krrish29" target="_blank"><i class="fa-brands fa-github"></i></a>
+                        <a href="#" target="_blank"><i class="fab fa-twitter-square"></i></a>
+                        <a href="https://www.linkedin.com/in/krrish-garg-17ba90255/" target="_blank"><i class="fab fa-linkedin"></i></a>
+                        <a href="https://instagram.com/krrishhell._007?igshid=NGVhN2U2NjQ0Yg==" target="_blank"><i class="fab fa-instagram"></i></a> 
+                    </div>
+                </div>
+                <div class="contact-right">
+                    <form>
+                        <input type="text" name="Name" placeholder="Your Name" required>
+                        <input type="email" name="email" placeholder="Your Email" required>
+                        <textarea name="Message" rows="6" placeholder="Your Message"></textarea>
+                        <button type="submit" class="btn btn2">Submit</button>
+                    </form>
+                </div>
+            </div>
+        </div>
+        <div class="copyright">
+            <p>Copyright © krrishhell. Made with <i class="fas fa-heart"></i> using Hypertext Markup Language and Cascading StyleSheet.</p>
+        </div>
+    </div>
+    
+
+
+
+
+        
+        <script>
+            
+            var tablinks = document.getElementsByClassName("tab-links");
+            var tabcontents = document.getElementsByClassName("tab-contents");
+
+            function opentab(tabname){
+                for(tablink of tablinks){
+                    tablink.classList.remove("active-link");
+                }
+                for(tabcontent of tabcontents){
+                    tabcontent.classList.remove("active-tab");
+                }
+                event.currentTarget.classList.add("active-link");
+                document.getElementById(tabname).classList.add("active-tab");
+            }
+
+        </script>
+    </body>
+</html>
